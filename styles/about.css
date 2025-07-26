@@ -67,7 +67,8 @@ h2 {
     width:90% ;
 }
 section img{
-    width:100%;
+  width:100%;
+      object-fit: cover;    /* crop nicely if image doesn't fit */
 }
 .list{
     margin-right: 50px;
